@@ -14,13 +14,12 @@ angular.module('tripApp')
       AniJS.run();
     }, 100);
 
-    $('.been-there').click(function(event) {
+    $('.grid-item').click(function(event) {
       var parentDiv = $(event.target).parent('div');
       var image = parentDiv.find('img');
       $timeout(function() {
-        image.hide();
-        parentDiv.height(200);
-        parentDiv.css('background', 'red');
+        image.css('visibility', 'hidden');
+        parentDiv.css('background', Please.make_color());
       }, 500);
     });
 
