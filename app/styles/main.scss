@@ -9,6 +9,10 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @media screen and (min-width: 768px) {
 }
 
+body{
+  overflow: hidden;
+}
+
 .grid-item {
   float: left;
   width: 25%;
@@ -17,4 +21,18 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 img{
   width: 100%;
   height: auto;
+}
+
+.bin {
+  background: black;
+  border-top: 5px solid #555;
+  margin-left: -1px;
+  overflow: hidden;
+}
+
+.bin-item {
+  border-left: 1px solid #555;
+  float: left;
+  height: 80px;
+  width: 102px;
 }
