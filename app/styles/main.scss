@@ -9,7 +9,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @media screen and (min-width: 768px) {
 }
 
+.grid-item {
+  float: left;
+  width: 25%;
+}
+
 img{
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 }
