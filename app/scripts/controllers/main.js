@@ -8,10 +8,10 @@
  * Controller of the tripApp
  */
 angular.module('tripApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function($scope, $timeout) {
+    $timeout(function() {
+      AniJS.init();
+      AniJS.run();
+    }, 100);
+
   });
