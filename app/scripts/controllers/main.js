@@ -20,7 +20,7 @@ angular.module('tripApp')
       $timeout(function() {
         image.css('visibility', 'hidden');
         parentDiv.css('background', Please.make_color());
-      }, 500);
+      }, 10);
     });
 
   });
